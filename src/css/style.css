@@ -1,0 +1,49 @@
+body {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    color: hsl(193, 38%, 86%);
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    background-color:hsl(217, 19%, 24%);
+    min-height: 300px;
+    max-width: 444px;
+    min-width: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.conteudo{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.botao{
+    background-color: hsl(150, 100%, 66%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transform: translatey(50px);
+}
+
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(150, 100%, 66%);
+}
